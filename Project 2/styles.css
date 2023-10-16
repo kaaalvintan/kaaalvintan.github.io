@@ -1,0 +1,73 @@
+/* Add your CSS style definitions to this file */
+
+body {
+    margin-top: 0em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 0em;
+    
+
+    font-family: 'Open Sans';
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    justify-content: space-evenly;
+}
+
+
+h1 {
+    color: #9f2042;
+}
+
+div#details {
+    color: #a9a9ba;
+}
+
+h1 {
+    font-family: 'Roboto Slab';
+    font-size: 2rem;
+}
+
+blockquote {
+    font-family: 'Roboto Slab';
+    font-size: 1rem;
+    background-color: lightgray;
+    padding: 25px;
+    margin: 50px;
+    text-align: center;
+      
+}
+
+div#buttons {
+
+    text-align: left;
+    margin: 20px;
+}
+
+div a {
+    color: #fff;
+    transition: background-color 1s;
+    text-decoration: none;
+  }
+  
+  div a:hover {
+    background-color: #004369;
+    color: white;
+    opacity: 50%;
+    border-radius: 5px;
+    border: 1px solid #000;
+    padding: 10px 20px;
+  }
+   
+
+footer {
+    background-color: #29293a;
+    color: white;
+    text-decoration: none;
+    text-align: justify;
+    padding: 20px;
+}
+
+a:link {
+    color: #9f2042;
+}
