@@ -1,0 +1,114 @@
+/* general text formatting */
+
+
+body {
+   font-family: "Roboto", Verdana, Arial, sans-serif;
+   font-size: 100%;
+    background-color: #ECEFF1;
+
+}
+thead, tbody{
+    text-align: left;
+}
+
+table {
+    border-spacing: 10px;
+}
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+
+section {
+   background-color: white;
+   margin: 1em 4em 1em 4em;
+   border: solid 1pt black;
+
+}
+section h3 {
+  color: white;
+  padding: 0.75rem;
+  background-color: #263238; 
+}
+
+progress {
+    color: #5378cf;
+}
+
+progress[value] {
+    /* Reset the default appearance */
+     appearance: none;
+     color: #5378cf;
+  
+    width: 200px;
+    height: 15px;
+  }
+
+  progress[value]::-webkit-progress-bar {
+    background-color: #eee;
+    border-radius: 2px;
+  }
+
+  progress[value]::-webkit-progress-value {
+    background-color: #5478b0;
+  }
+
+section h1 {
+    color: white;
+    padding: 0.5rem;
+    margin: 0.5em 2em 0.5em 2em;
+    background-color: #607D8B;
+    text-align: center;
+}
+
+legend{
+    color: white;
+    padding: 0.5rem;
+    background-color: #607D8B;
+    width: 95%;
+    text-align: center;
+}
+
+.status {
+    border-radius: 0.25rem;
+    padding: 3px;
+    color: white;
+    
+}
+.status-processing {
+    background-color:    #E65100;
+}
+.status-shipped {
+    background-color:   #4CAF50;
+}
+.status-pending {
+    background-color:    #03A9F4;
+   
+}
+
+form {
+    padding: 25px;
+}
+
+form p {
+    padding: 10px;
+}
+
+input[type="submit"] {
+    background: url(images/shopping-cart/check-out-btn.png);
+    width: 12%; /* width of image */
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background: #4f3d91;
+    color: white;
+    border: none;
+    padding: 10px;
+    position: relative;
+}
+
+/* table formatting -- you will add these */
+
+
+
