@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap">
+    <title>Let's Ride</title>
+</head>
+
+
+    <div class="container">
+        <header class="topnav">
+            <div class="container">
+                <h1>Let's Ride</h1>
+                <div class="search-container">
+                    <form id="searchForm">
+                      <input type="text" placeholder="Search.." name="search" id="searchInput">
+                      <button type="submit" class="search_button"><i class="fa fa-search">Submit</i></button>
+                    </form>
+                  </div>
+                <nav>
+                    <a href="LetsRide.html">Home</a>
+                    <a href="snow-reports.html" class="active">Snow Reports</a>
+                    <a href="contact-us.html">Contact Us</a>
+                    <a href="about.html">About</a>
+                </nav>
+            </div>
+        </header>
+        
+<body>
+    <!-- Resort containers -->
+    <div class="resort-container" id="montage" style = "display: none;">
+        <h2>Montage Ski Resort</h2>
+        <div class="weather-box" id="montageWeatherBox" style = "display: none;"></div>
+    </div>
+
+    <div class="resort-container" id="elk" style="display: none;">
+        <h2>Elk Mountain Ski Resort</h2>
+        <div class="weather-box" id="elkWeatherBox" style="display: none;"></div>
+    </div>
+
+    <div class="resort-container" id="jackFrost" style = "display: none;">
+        <h2>Jack Frost/Big Boulder Ski Resort</h2>
+        <div class="weather-box" id="jackFrostWeatherBox" style="display: none;"></div>
+    </div>
+
+    <div class="resort-container" id="blueMountain" style = "display: none;">   
+        <h2>Blue Mountain Ski Resort</h2>
+        <div class="weather-box" id="blueMountainWeatherBox" style="display: none;"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+
+
+</body>
+
+</html>
